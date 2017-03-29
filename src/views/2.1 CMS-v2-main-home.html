@@ -1,0 +1,694 @@
+{% set current_page = 'homepage' %}
+{% extends "layout/_layout.html" %}
+{% block page-content %}
+<div class="col-md-">
+  <!-- section 1 -->
+    <section>
+      <div class="row">
+        <div class="col-md-8" style="padding-left: 0;">
+          <div class="box1">
+            <div class="header-box">
+              <p class="title">Đơn hàng mới nhất</p>
+              <a href="#" class="view-all">Xem tất cả</a>
+            </div>
+            <div class="body-box">
+              <div class="table table-sliiped">
+                <div class="row header-table">
+                  <div class="col-md-2"><p>User</p></div>
+                  <div class="col-md-2"><p>Mã đơn hàng</p></div>
+                  <div class="col-md-3" style="text-align: center;"><p>Trạng thái</p></div>
+                  <div class="col-md-3"><p class="time">Thời gian</p></div>
+                  <div class="col-md-2"><p>Giá trị đơn hàng</p></div>
+                </div>
+                <div class="content collapse in">
+                <div class="scrollbar">
+                  <ul class="body-table">
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Cjndy Sunny</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a></span></div>
+                    <div class="col-md-3"><p class="status success">Đặt hàng thành công</p></div>
+                    <div class="col-md-3"><span class="time">11:10 - 15/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">566.000đ</span></div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Wendy Giang</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a></span></div>
+                    <div class="col-md-3"><p class="status wait">Chờ thanh toán</p></div>
+                    <div class="col-md-3"><span class="time">10:16 - 12/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">377.000đ</span></div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Anita Nhi</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a></span></div>
+                    <div class="col-md-3"><p class="status cancel">Hủy</p></div>
+                    <div class="col-md-3"><span class="time">21:10 - 11/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">1.920.000đ</span></div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Oscar Bach</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a></span></div>
+                    <div class="col-md-3"><p class="status success">Đặt hàng thành công</p></div>
+                    <div class="col-md-3"><span class="time">22:10 - 05/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">3.740.000đ</span></div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Đoàn Trung Tính</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a>
+                    </span></div>
+                    <div class="col-md-3"><p class="status inprogress">Đang giao hàng</p></div>
+                    <div class="col-md-3"><span class="time">14:10 - 05/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">789.000đ</span></div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Cjndy Sunny</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a></span></div>
+                    <div class="col-md-3"><p class="status success">Đặt hàng thành công</p></div>
+                    <div class="col-md-3"><span class="time">11:10 - 15/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">566.000đ</span></div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-2"><span class="name">Cjndy Sunny</span></div>
+                    <div class="col-md-2"><span class="bold"><a href="#">#1234567651</a></span></div>
+                    <div class="col-md-3"><p class="status success">Đặt hàng thành công</p></div>
+                    <div class="col-md-3"><span class="time">11:10 - 15/01/2017</span></div>
+                    <div class="col-md-2"><span class="bold value">566.000đ</span></div>
+                  </li>
+                </ul>
+
+                </div>
+                </div>
+                
+              </div>
+              <!-- end table -->
+            </div>  
+          </div>
+        </div>
+        <div class="col-md-4" style="padding-right: 0;">
+          <div class="box2">
+            <div class="header-box">
+              <p class="title">Thành viên</p>
+              <a href="#" class="view-all">Xem tất cả</a>
+            </div>
+            <div class="body-box">
+              <p><span class="count_number">109,322</span> <span>Thành viên</span></p>
+              <div class="pad">
+                <!-- Progress bars -->
+                <div class="clearfix">
+                    <span class="pull-left">Quản trị viên</span>
+                    <small class="pull-right">76</small>
+                </div>
+                <div class="progress xs">
+                    <div class="progress-bar progress-bar-red" style="width: 15%;"></div>
+                </div>
+
+                <div class="clearfix">
+                    <span class="pull-left">Khách hàng</span>
+                    <small class="pull-right">109.246</small>
+                </div>
+                <div class="progress xs">
+                    <div class="progress-bar progress-bar-green" style="width: 85%;"></div>
+                </div>
+            </div><!-- /.pad -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 -->
+    <section>
+      <div class="row">
+        <div class="col-md-8" style="padding-left: 0;">
+          <div class="box3">
+            <div class="header-box">
+              <p class="title">Thống kê đơn hàng</p>
+            </div>
+            <div class="body-box">
+              <div class="table table-sliiped">
+                <div class="header-table">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="col-md-1"><span>#</span></div>
+                      <div class="col-md-11"><span>Trạng thái</span></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="col-md-2"><p>Hôm nay</p></div>
+                      <div class="col-md-2"><p>Trong tuần</p></div>
+                      <div class="col-md-3"><p>Trong tháng</p></div>
+                      <div class="col-md-2"><p>Trong năm</p></div>
+                      <div class="col-md-3"><p>Năm Trước</p></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content collapse in">
+                <div class="scrollbar">
+                  <ul class="body-table">
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">1</span></div>
+                        <div class="col-md-11"><p class="status">Chờ thanh toán</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">5</span></div>
+                        <div class="col-md-2"><span class="number">5</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">2</span></div>
+                        <div class="col-md-11"><p class="status">Chưa liên hệ được</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">19</span></div>
+                      </div>
+                      
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">3</span></div>
+                        <div class="col-md-11"><p class="status">Đã đóng gói</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">41</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">4</span></div>
+                        <div class="col-md-11"><p class="status">Đã giao hàng</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">4930</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">5</span></div>
+                        <div class="col-md-11"><p class="status">Đã hoàn tiền</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">44</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">6</span></div>
+                        <div class="col-md-11"><p class="status">Đã thanh toán</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">7</span></div>
+                        <div class="col-md-11"><p class="status">Đã thanh toán cho supplier</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3" ><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">8</span></div>
+                        <div class="col-md-11"><p class="status">Đã xác nhận</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">55</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">9</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Đặt hàng liước)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">3</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">10</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">11</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">12</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">13</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">14</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">15</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">16</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">17</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">18</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">19</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    <li class="row">
+                      <div class="col-md-5">
+                        <div class="col-md-1"><span class="id">20</span></div>
+                        <div class="col-md-11"><p class="status">Đang chuẩn bị hàng (Hết hàng)</p></div>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">0</span></div>
+                        <div class="col-md-2"><span class="number">0</span></div>
+                        <div class="col-md-3"><span class="number">16</span></div>
+                      </div>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+                <ul class="footer">
+                  <li class="row">
+                    <div class="col-md-5">
+                      <div class="merge col-md-1"></div>
+                      <div class="merge col-md-11"><p class="total">Tổng đơn hàng</p></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="col-md-2"><span class="number">9</span></div>
+                      <div class="col-md-2"><span class="number">11</span></div>
+                      <div class="col-md-3"><span class="number">90</span></div>
+                      <div class="col-md-2"><span class="number">90</span></div>
+                      <div class="col-md-3"><span class="number">9624</span></div>
+                    </div>
+                  </li>
+                  <li class=" row">
+                    <div class="col-md-5">
+                      <div class="merge col-md-1"></div>
+                      <div class="merge col-md-11"><p class="total">Tổng doanh thu</p></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="col-md-2"><span class="number">4,763,000</span></div>
+                      <div class="col-md-2"><span class="number">6,657,000</span></div>
+                      <div class="col-md-3"><span class="number">35,297,230</span></div>
+                      <div class="col-md-2"><span class="number">35,297,230</span></div>
+                      <div class="col-md-3"><span class="number">7,036,001,507</span></div>
+                    </div>
+                  </li>
+                  <li class="row">
+                    <div class="col-md-5">
+                      <div class="merge col-md-1"></div>
+                      <div class="merge col-md-11"><p class="total">Đã thu</p></div>
+                    </div>
+                    <div class="col-md-7">
+                      <div class="col-md-2"><span class="number">1,500,000</span></div>
+                      <div class="col-md-2"><span class="number">1,500,000</span></div>
+                      <div class="col-md-3"><span class="number">1,500,000</span></div>
+                      <div class="col-md-2"><span class="number">1,500,000</span></div>
+                      <div class="col-md-3"><span class="number">3,162,254,268</span></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- end table -->
+            </div>  
+          </div>
+        </div>
+        <div class="col-md-4" style="padding-right: 0;">
+          <div class="box4">
+            <div class="header-box">
+              <p class="title">Yêu cầu hỗ trợ mới nhất</p>
+              <a href="#" class="view-all">Xem tất cả</a>
+            </div>
+            <div class="body-box">
+              <div class="content collapse in">
+                <div class="scrollbar">
+                  <ul class="list-requier">
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">hoanghieu90qn</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">Đơn hàng này bao giờ sẽ được giao ạ? Mình hiện cần gấp ạ.</p>
+                    </li>
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">Nguyễn Văn Hiếu</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">Mymall giao hàng nhanh giúp mình nhé, hết 1 tuần rồi. Cám ơn.</p>
+                    </li>
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">Trần Quang Qui</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">Đơn hàng này bao giờ sẽ được giao ạ? Mình hiện cần gấp ạ.</p>
+                    </li>
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">hoanghieu90qn</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">em đặt hàng có áp dụng mã giảm giá là MCdcfecea nhưng sau khi chọn thanh toán qua thẻ Visa/ Master thì hệ thống báo lỗi. Nhờ anh chị kiểm ...</p>
+                    </li>
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">hoanghieu90qn</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">Đơn hàng này bao giờ sẽ được giao ạ? Mình hiện cần gấp ạ.</p>
+                    </li>
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">hoanghieu90qn</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">Đơn hàng này bao giờ sẽ được giao ạ? Mình hiện cần gấp ạ.</p>
+                    </li>
+                    <li class="item-requier">
+                      <div class="account">
+                        <span class="name">hoanghieu90qn</span>
+                        <p class="time">12/12/2016 - 01:32 PM</p>
+                      </div>
+                      <a href="#" type="button" class="detail">#1234567651</a>
+                      <p class="sub_content">Đơn hàng này bao giờ sẽ được giao ạ? Mình hiện cần gấp ạ.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>    
+          </div>
+
+          <div class="box5">
+            <div class="header-box">
+              <p class="title">Nhận xét mới nhất</p>
+              <a href="#" class="view-all">Xem tất cả</a>
+            </div>
+            <div class="body-box">
+              <div class="content collapse in">
+                <div class="scrollbar">
+                  <ul class="list-commend">
+                    <li class="item-commend">
+                      <div class="col-md-2">
+                        <div class="wrap-img">
+                          <img src="../assets/images/icon-no-account.png" alt="">
+                        </div>
+                        <div class="rate-star">
+                          <span class="starRating">
+                            <input id="rating5" type="radio" name="rating" value="5">
+                            <label for="rating5">5</label>
+                            <input id="rating4" type="radio" name="rating" value="4" checked>
+                            <label for="rating4">4</label>
+                            <input id="rating3" type="radio" name="rating" value="3" >
+                            <label for="rating3">3</label>
+                            <input id="rating2" type="radio" name="rating" value="2" >
+                            <label for="rating2">2</label>
+                            <input id="rating1" type="radio" name="rating" value="1">
+                            <label for="rating1">1</label>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="col-md-10">
+                        <p class="name">Nguyễn Thị Thu Trang <span class="time">15/01/2016 - 05:35PM</span></p>
+                        <a href="#" class="product">Vali Ricardo San Clemente 7 Tấc - Đỏ</a>
+                        <div class="wrap-commend">
+                           <p class="commend-detail">
+                            Sản phẩm tốt, chất lượng giống hình, giao hàng hơi chậm nhưng ok
+                          </p>
+                          <div class="comment-simplebox-arrow"><div class="arrow-inner"></div><div class="arrow-outer"></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-commend">
+                      <div class="col-md-2">
+                        <div class="wrap-img">
+                          <img src="../assets/images/avatar1.png" alt="">
+                        </div>
+                        <div class="rate-star">
+                          <span class="starRating">
+                            <input id="rating10" type="radio" name="rating1" value="10">
+                            <label for="rating10">10</label>
+                            <input id="rating9" type="radio" name="rating1" value="9" >
+                            <label for="rating9">9</label>
+                            <input id="rating8" type="radio" name="rating1" value="8" checked>
+                            <label for="rating8">8</label>
+                            <input id="rating7" type="radio" name="rating1" value="7" >
+                            <label for="rating7">7</label>
+                            <input id="rating6" type="radio" name="rating1" value="6">
+                            <label for="rating6">6</label>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="col-md-10">
+                        <p class="name">Nguyễn Thị Hồng Ngọc <span class="time">15/01/2016 - 05:35PM</span></p>
+                        <a href="#" class="product">Vali Ricardo San Clemente 7 Tấc - Đỏ</a>
+                        <div class="wrap-commend">
+                          <p class="commend-detail">
+                            Sản phẩm tốt, chất lượng giống hình, giao hàng hơi chậm nhưng ok
+                          </p>
+                          <div class="comment-simplebox-arrow"><div class="arrow-inner"></div><div class="arrow-outer"></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-commend">
+                      <div class="col-md-2">
+                        <div class="wrap-img">
+                          <img src="../assets/images/avatar2.png" alt="">
+                        </div>
+                        <div class="rate-star">
+                          <span class="starRating">
+                            <input id="rating15" type="radio" name="rating2" value="15">
+                            <label for="rating15">5</label>
+                            <input id="rating14" type="radio" name="rating2" value="14" checked>
+                            <label for="rating14">4</label>
+                            <input id="rating13" type="radio" name="rating2" value="13" >
+                            <label for="rating13">3</label>
+                            <input id="rating12" type="radio" name="rating2" value="12" >
+                            <label for="rating12">2</label>
+                            <input id="rating11" type="radio" name="rating2" value="11">
+                            <label for="rating11">1</label>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="col-md-10">
+                        <p class="name">Trần Nguyễn Quang Anh <span class="time">15/01/2016 - 05:35PM</span></p>
+                        <a href="#" class="product">Nón Nỉ Giữ Ấm</a>
+                        <div class="wrap-commend">
+                          <p class="commend-detail">
+                            em đặt hàng có áp dụng mã giảm giá là MCdcfecea nhưng sau khi chọn thanh toán qua thẻ Visa/ Master thì hệ thống báo lỗi. Nhờ anh chị kiểm lia và gửi lại...
+                          </p>
+                          <div class="comment-simplebox-arrow"><div class="arrow-inner"></div><div class="arrow-outer"></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item-commend">
+                      <div class="col-md-2">
+                        <div class="wrap-img">
+                          <img src="../assets/images/icon-no-account.png" alt="">
+                        </div>
+                        <div class="rate-star">
+                          <span class="starRating">
+                            <input id="rating20" type="radio" name="rating3" value="20">
+                            <label for="rating20">5</label>
+                            <input id="rating19" type="radio" name="rating3" value="19" checked>
+                            <label for="rating19">4</label>
+                            <input id="rating18" type="radio" name="rating3" value="18" >
+                            <label for="rating18">3</label>
+                            <input id="rating17" type="radio" name="rating3" value="17" >
+                            <label for="rating17">2</label>
+                            <input id="rating16" type="radio" name="rating3" value="16">
+                            <label for="rating16">1</label>
+                          </span>
+                        </div>
+                      </div>
+                      <div class="col-md-10">
+                        <p class="name">Nguyễn Thị Thu Trang <span class="time">15/01/2016 - 05:35PM</span></p>
+                        <a href="#" class="product">Vali Ricardo San Clemente 7 Tấc - Đỏ</a>
+                        <div class="wrap-commend">
+                          <p class="commend-detail">
+                            Sản phẩm tốt, chất lượng giống hình, giao hàng hơi chậm nhưng ok
+                          </p>
+                          <div class="comment-simplebox-arrow"><div class="arrow-inner"></div><div class="arrow-outer"></div></div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- section 3 -->
+   <section>
+      <div class="row">
+       <h3 class="chart-title">Thống kê sản phẩm</h3>
+        <div class="col-md-6" style="padding-left: 0;">
+          <div class="box box-category">
+            <p class="title">Thống kê danh mục sản phẩm</p>
+            <div class="total">
+              <p>Tổng cộng: <span>1126</span></p>
+            </div>
+            <div id="chartdiv"></div>
+          </div>
+        </div>
+        <div class="col-md-6" style="padding-right: 0;">
+          <div class="box box-product">
+            <p class="title">Thống kê sản phẩm hiện có</p>
+            <div class="total">
+              <p>Tổng cộng: <span>80686</span></p>
+            </div>
+            <div id="chartdiv1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+{% endblock %}
